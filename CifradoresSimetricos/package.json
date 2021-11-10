@@ -1,0 +1,25 @@
+{
+  "name": "cifradoressimetricos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.0.0"
+  },
+  "bin": {
+    "cesar": "./src/CifradordeCesar/index.js",
+    "decifra": "./src/CifradorAnalisedeFrequencia/index.js",
+    "vernam": "./src/CifradorVernam/index.js"
+  },
+  "CifradordeCesarVersion": "1.0.0",
+  "CifradorAnalisedeFrequenciaVersion": "1.0.0",
+  "CifradorVernamVersion": "1.0.0"
+}
